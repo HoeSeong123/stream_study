@@ -56,14 +56,4 @@ public class StreamTest {
             assertArrayEquals(new int[]{3, 3}, result.get(1));
         }
     }
-
-    @Test
-    @DisplayName("퀴즈 5-3")
-    void quiz_5_3() {
-        List<String> menu = List.of("피자", "치킨", "떡볶이");
-
-        int count = menu.stream()
-                .
-    }
-
 }
